@@ -6,5 +6,5 @@ aws lambda create-function \
     --zip-file fileb://make_s3_object_private.zip \
     --handler make_s3_object_private.lambda_handler \
     --timeout 3 \
-    --role arn:aws:iam::859119227216:role/lambda_s3_make_object_private \
+    --role <iam-role> \
     --memory-size 256 
