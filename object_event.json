@@ -1,0 +1,32 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2019-05-19T13:43:47.253Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": { "principalId": "AWS:AIDAI2YBZ2L773WA5RKMW" },
+            "requestParameters": { "sourceIPAddress": "78.99.191.9" },
+            "responseElements": {
+                "x-amz-request-id": "DCABBE4381E7DC99",
+                "x-amz-id-2": "S4KO7BRz/+saqILnsH8vWbaGPlkjPYG+0xDPxfIXVvqJ922mstZ0v3sTsOft/1C/wwUhiOEqg/8="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "objectCreated",
+                "bucket": {
+                    "name": "images-source-bucket",
+                    "ownerIdentity": { "principalId": "A16EYG6777FWX3" },
+                    "arn": "arn:aws:s3:::images-source-bucket"
+                },
+                "object": {
+                    "key": "application.py",
+                    "size": 248,
+                    "eTag": "06f69607ef115efe6f1bf234b4d883f0",
+                    "sequencer": "005CE15D93350039F2"
+                }
+            }
+        }
+    ]
+}
